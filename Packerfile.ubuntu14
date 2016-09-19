@@ -36,8 +36,7 @@
       "source_ami": "{{user `source_ami_id`}}",
       "packer": "true"
     },
-    "ami_description": "{{user `ami_description`}}",
-    "ami_regions": [ "us-west-2" ]
+    "ami_description": "{{user `ami_description`}}"
   }],
   "provisioners": [
     {
