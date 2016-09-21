@@ -90,3 +90,6 @@ As part of the build template, Packer would attempt to run a bunch of serverspec
 
 ## Output
 Successful AMI is created in AWS account under "EC2" --> "AMIs". AMIs are copied to all regions specified in "ami_regions" inside Packerfile. AMIs are also shared with all accounts specified in share-ami.sh
+
+## Build pipeline
+Sample build & promotion pipeline using Github + Jenkins + Hashicorp Packer + Chef + serverspec is available [here](https://github.com/huyanhvn/image-build-pipeline)
