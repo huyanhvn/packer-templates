@@ -93,4 +93,3 @@ Successful AMI is created in AWS account under "EC2" --> "AMIs". AMIs are copied
 
 ## Build pipeline
 Sample build & promotion pipeline using Github + Jenkins + Hashicorp Packer + Chef + serverspec is available [here](https://github.com/huyanhvn/image-build-pipeline)
-
